@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    line-height: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(64, 255, 64);
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.0em;
+}
+
+header  a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 50vw auto;
+}
+
+section.historia {
+
+}
+
+section.historia h2 {
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+section.historia h3 {
+    text-indent: 15px;
+    margin: 50px 0px;
+    font-size: 1.4em;
+}
+
+section.historia h4 {
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 1.3em;
+}
+
+section.historia h5 {
+    font-size: 1.2em;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+section.historia p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-indent: 15px;
+}
+
+section.historia iframe {
+
+    display: block;
+    margin: auto;
+}
+
+section.historia img {
+    display: block;
+    margin: auto;
+    height: 50vh;
+}
+
+section.historia a {
+    display: flex;
+    flex-flow: column nowrap;
+    text-decoration: none;
+    align-items: center;
+    color: purple;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+section.historia a:hover {
+    color: rgb(224, 2, 224);
+}
+
+div#caixa-historia {
+    grid-column: 2;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 1.3em;
+    text-shadow: 2px 2px 4px rgb(126, 116, 116);
+}
+
+footer a {
+    color: white;
+    font-size: 1.3em;
+    margin: 5px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+footer a:hover {
+    color: rgb(64, 255, 64);;
+}
