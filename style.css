@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
 body {
@@ -37,10 +38,6 @@ main {
     grid-template-columns: auto 50vw auto;
 }
 
-section.historia {
-
-}
-
 section.historia h2 {
     margin: 30px 0px;
     text-align: center;
@@ -72,7 +69,7 @@ section.historia p {
 }
 
 section.historia iframe {
-
+    border-radius: 10px;
     display: block;
     margin: auto;
 }
@@ -127,4 +124,42 @@ footer a {
 
 footer a:hover {
     color: rgb(64, 255, 64);;
+}
+
+@media screen and (max-width: 768px) {
+    
+    header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    
+    header h1 {
+        
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: auto 90vw auto;
+    }
+    
+    header > menu > a {
+        margin: 0px;
+        font-weight: normal;
+        display: none;
+    }
+
+    section.historia iframe {
+        width: 100%;
+    }
+    
+    section.historia img {
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    div#caixa-historia {
+        grid-column: 2;
+    }
+    
 }
