@@ -128,14 +128,14 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
     
+    body {
+        background-color: white;
+    }
+
     header {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-    }
-    
-    header h1 {
-        
     }
 
     main {
